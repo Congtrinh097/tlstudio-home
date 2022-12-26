@@ -1,0 +1,63 @@
+User-agent: 008
+Disallow: /
+
+User-agent: SiteAuditBot
+Crawl-delay: 1
+Allow: /
+
+User-agent: Semrushbot-SI
+Allow: /
+
+User-agent: Yahoo Pipes 2.0
+Disallow: /
+
+User-agent: Facebot
+Disallow: /archive/graphs.php
+
+User-agent: Bingbot
+Disallow: /archive/graphs.php
+
+User-agent: BingPreview
+Disallow: /archive/graphs.php
+
+User-agent: Twitterbot
+Allow: /blog/*
+
+User-agent: *
+Disallow: /blog/*?img=*
+
+# Community rules
+Allow: /blog/*
+Disallow: /blog/search/*
+
+# Features new pages
+Allow: /features/index2/
+Disallow: /features/for-*
+
+# Solutions
+Disallow: /solutions/$
+
+#webinars
+Allow: /webinars/*
+
+#landing
+Disallow: /landing/
+
+#academy
+Allow: /academy/*
+
+#websites
+Allow: /website/*
+Disallow: /website/search/*
+
+Disallow: /*/?*
+Crawl-delay: 20
+
+# Sitemap files
+Sitemap: https://www.tlstudio.asia/sitemap.xml
+Sitemap: https://blogs.tlstudio.asia/sitemap
+Sitemap: https://wedding.tlstudio.asia/sitemap/
+Sitemap: https://activities.tlstudio.asia/sitemap/
+Sitemap: https://clock.tlstudio.asia/sitemap/
+Sitemap: https://audioconverter.tlstudio.asia/sitemap/
+Sitemap: https://imgeditor.tlstudio.asia/sitemap/
